@@ -77,8 +77,8 @@ A regular function that acts as a factory for objects. Called with the `new` key
 
 ```js
 function Employee() {
-    this.fname       = 'Sagor';
-    this.lname       = 'Sarkar';
+    this.fname       = 'William';
+    this.lname       = 'Franklin';
     this.age         = 27;
     this.city        = 'Dhaka';
 
@@ -88,7 +88,7 @@ function Employee() {
 }
 
 let emp = new Employee();
-console.log(emp.getName()); // Employee Name is: Sagor Sarkar
+console.log(emp.getName()); // Employee Name is: William Franklin
 ```
 
 > 💡 `constructor()` method and constructor function both serve the same purpose — just written differently.

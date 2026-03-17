@@ -22,8 +22,8 @@ person.getName = () => {
 //------------------- Object by using constructor() --------------------
 // When create a function and by the function we call the object -> that is object by condtructor!
 function employee() {
-    this.fname = 'Sagor';
-    this.lname = 'Sarkar';
+    this.fname = 'William';
+    this.lname = 'Franklin';
     this.age = 27;
     this.city = 'Dhaka';
     this.isLaravelist = true;
