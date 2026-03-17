@@ -105,8 +105,8 @@ Class (blueprint) ──→ new keyword ──→ Object (instance)
 
 ```js
 class DeveloperInfo {
-    fname = 'Dipto';
-    lname = 'Karmakar';
+    fname = 'Henry';
+    lname = 'Smith';
     age   = 26;
     city  = 'Tangail';
 
@@ -119,7 +119,7 @@ let developer1 = new DeveloperInfo();
 let developer2 = new DeveloperInfo();
 let developer3 = new DeveloperInfo();
 
-console.log(developer1.getName()); // Developer Name is: Dipto Karmakar
+console.log(developer1.getName()); // Developer Name is: Henry Smith
 ```
 
 **Why classes?** One blueprint → unlimited unique objects. Each instance is independent.

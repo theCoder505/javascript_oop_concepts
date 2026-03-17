@@ -46,8 +46,8 @@ let employeeObjectIInstance = new employee();
 // Blueprint/Class || You are basically writing an OBject
 // Cause the blueprint of an object is also an object!
 class DeveloperInfo {
-    fname = 'Dipto'
-    lname = "Karmakar"
+    fname = 'Henry'
+    lname = "Smith"
     age = 26
     city = 'Tangail'
     isLaravelist = false
